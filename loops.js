@@ -21,5 +21,8 @@ function forLoop(array){
 }
  
  function doWhileLoop(array){
-   
+   do {
+     return array.pop;
+   } while (maybeTrue())
  }
+ 
